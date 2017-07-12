@@ -1,0 +1,3 @@
+[submodule "redis-sentinel-proxy"]
+	path = redis-sentinel-proxy
+	url = https://github.com/enriclluelles/redis-sentinel-proxy.git
