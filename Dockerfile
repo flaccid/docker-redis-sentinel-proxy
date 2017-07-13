@@ -3,7 +3,7 @@ FROM busybox
 MAINTAINER Chris Fordham <chris@fordham-nagy.id.au>
 
 ENV LISTEN_ADDRESS=:6379
-ENV SENTINEL_ADDRESS=:26379
+ENV SENTINEL_ADDRESS=sentinel:26379
 ENV REDIS_MASTER_NAME=master
 
 COPY bin/redis-sentinel-proxy /usr/local/bin/redis-sentinel-proxy
